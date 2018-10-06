@@ -62,6 +62,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+html {
+    font-size: 62.5%;
+}
+
 body {
 	width: 800px;
 	margin: auto;
@@ -89,7 +93,7 @@ nav a {
 	color: gray;
 	font-weight: bold;
 	/* background: blue; */
-	font-size: 16px;
+	font-size: 1.6rem;
 	/* width: 8.2%;
 	margin-right: 8.2%; */
 }
@@ -116,7 +120,7 @@ nav a {
 .headline {
 	width: 50%;
 	height: 20vh;
-	font-size: 64px;
+	font-size: 6.4rem;
 	text-align: center;
 	position: relative;
 	bottom: 70px;
@@ -125,7 +129,7 @@ nav a {
 button {
 	background: white;
 	border: 1px solid black;
-	font-size: 16px;
+	font-size: 1.6rem;
 	padding: 10px 50px;
 }
 
@@ -207,7 +211,7 @@ footer {
     .headline {
         width: 50%;
         height: 20vh;
-        font-size: 64px;
+        font-size: 6.4rem;
         text-align: center;
         position: relative;
         bottom: 5px;
@@ -338,6 +342,6 @@ footer {
 
 }   
 
-/* html {
-    font-size
-} */
+p {
+    font-size: 2.2rem;
+}
