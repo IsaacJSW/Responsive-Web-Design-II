@@ -67,14 +67,16 @@ html {
 }
 
 body {
-	width: 880px;
+    max-width: 880px;
+    width: 100%;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .topcontainer {
-	width: 800px;
+    max-width: 800px;
+    width: 91%;
 	height: 50px;
 	display: flex;
 	padding-top: 20px;
@@ -178,7 +180,8 @@ footer {
 @media (max-width: 800px)  {
     body {
         /* background: steelblue; */
-        width: 750px;
+        max-width: 800px;
+        width: 100%;
     }
     .codesnippet {
         display: none;
@@ -238,7 +241,8 @@ footer {
 @media (max-width: 500px) {
     body {
         /* background: pink; */
-        width: 400px;
+        max-width: 500px;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
@@ -261,7 +265,8 @@ footer {
 
     }
     .logo {
-        width: 160px;
+        max-width: 160px;
+        width: 33%;
         left: 120px;
         /* background: blue; */
         margin-bottom: 1px;
